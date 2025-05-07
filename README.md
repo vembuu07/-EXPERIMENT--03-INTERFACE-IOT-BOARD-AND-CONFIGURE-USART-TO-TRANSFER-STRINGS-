@@ -1,9 +1,11 @@
-<H3>NAME   : VEMBARASAN </H3>
-<H3>REG NO :212223220123 </H3>
-<H3>EX. NO.3</H3>
-<H3>DATE: 26.03.2025</H3>
 
-# EXPERIMENT--04-INTERFACING IOT DEVELOPMENT BOARD AND CONFIGURE USART FOR TRANSFERRING STRINGS 
+###  DATE: 26.03.25
+
+###  NAME: Ragavan E
+###  ROLL NO :212223040160
+###  DEPARTMENT: CSE
+
+# EXPERIMENT--03-INTERFACING IOT DEVELOPMENT BOARD AND CONFIGURE USART FOR TRANSFERRING STRINGS 
 ## Aim: To Interface iot development board for configuring the the usart and transfer strings though it 
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool, Serial port utility tool 
 ## Theory 
@@ -40,7 +42,6 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 
 
 ## STM 32 CUBE PROGRAM :
-
 ```
 #include <main.h>
 #include <stdio.h>
@@ -52,7 +53,7 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 
   while (1)
   {
-	  printf("212223220123 from IT department\n");
+	  printf("GOWTHAM 212223100008\n");
 	  HAL_Delay(1000);
   }
 PUTCHAR_PROTOTYPE
@@ -63,10 +64,9 @@ PUTCHAR_PROTOTYPE
 }
 ```
 
+
 ## Output screen shots of Serial port utility   :
-
-![image](https://github.com/user-attachments/assets/6a3ba42f-2413-4349-94c3-01959315149c)
-
+ ![image](https://github.com/user-attachments/assets/3224bafd-28d4-4659-b25a-c388c04abd7c)
 
  
  
